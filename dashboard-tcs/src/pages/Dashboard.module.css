@@ -1,0 +1,18 @@
+/* Dashboard.module.css */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.container {
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading {
+  font-weight: 300;
+}

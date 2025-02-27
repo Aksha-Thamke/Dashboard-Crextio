@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+.icon {
+  font-size: 24px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+}

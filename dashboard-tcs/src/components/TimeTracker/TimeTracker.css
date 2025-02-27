@@ -1,0 +1,82 @@
+.time-tracker {
+  width: 300px;
+  padding: 20px;
+  background-color: hsl(50, 18%, 93%, 0.5);
+  backdrop-filter: blur(70px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+
+
+h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+}
+
+.progress-container {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 220px;
+}
+
+.svg-transform{
+  transform: rotate(-90deg);
+}
+
+.progress-background {
+  stroke: black;
+  fill: none;
+  stroke-dasharray: 0.8 8;
+  stroke-linecap: butt;
+  stroke-width: 10px;
+}
+.progress-bar {
+  stroke: #f4b400;
+  fill: none;
+  stroke-width: 15;
+  stroke-linecap: round;
+  stroke-dasharray: 565.2; /* Circumference 2*3.14*r */
+  stroke-dashoffset: calc(565.2 - (60 / 100)*565.2);
+}
+
+.time-display {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: #333;
+}
+
+.time{
+  font-size: 45px;
+  font-weight: normal;
+}
+
+p .work{
+  font-size: 10px;
+  color: #777;
+  margin-top: 0px;
+}
+
+
+
+
+
+@media (max-width: 750px) {
+
+  .time-tracker{
+    width: 200px;
+    padding: 15px;
+  }
+
+}
