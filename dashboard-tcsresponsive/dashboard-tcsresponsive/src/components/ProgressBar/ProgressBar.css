@@ -1,0 +1,148 @@
+.card {
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  flex: 1;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+}
+
+h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+  color: #444;
+}
+
+h1 {
+  margin: 5px 0;
+  font-size: 50px;
+  font-weight: 300;
+  color: #222;
+}
+
+.subtext {
+  font-size: 17px;
+  color: gray;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+
+  padding: 0 20px;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.bar {
+  width: 8px;
+  border-radius: 4px;
+  background: #222;
+  transition: 0.3s;
+}
+
+.dot {
+  width: 8px;
+  height: 2px;
+  border-radius: 80%;
+  background: #222;
+  transition: 0.3s;
+}
+.dot1 {
+  padding-top: 6px;
+}
+.dot2 {
+  padding-top: 6px;
+}
+.dot3 {
+  padding-top: 6px;
+}
+.dot4 {
+  padding-top: 6px;
+}
+.dot5 {
+  padding-top: 6px;
+}
+.dot6 {
+  padding-top: 6px;
+  background: #ffcc00;
+  position: relative;
+}
+.dot7 {
+  padding-top: 6px;
+  background: #ddd;
+}
+
+.bar1 {
+  height: 80px;
+  margin-bottom: 9px;
+}
+.bar2 {
+  height: 100px;
+  margin-bottom: 13px;
+}
+.bar3 {
+  height: 70px;
+  margin-bottom: 10px;
+}
+.bar4 {
+  height: 60px;
+  margin-bottom: 6px;
+}
+.bar5 {
+  height: 90px;
+  margin-bottom: 8px;
+}
+.bar6 {
+  height: 120px;
+  background: #ffcc00;
+  position: relative;
+  margin-bottom: 5px;
+}
+.bar7 {
+  height: 50px;
+  background: #ddd;
+  margin-bottom: 5px;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  background: #ffcc00;
+  color: black;
+  font-size: 10px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+}
+
+.highlight {
+  background: #ffcc00;
+}
+.faded {
+  background: #ddd;
+}
+
+span {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+}

@@ -1,0 +1,55 @@
+.eventCard {
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+.eventCardWhite {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.eventInfo {
+  flex: 1;
+}
+
+.eventTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+.eventTitleWhite {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
+
+.eventDescription {
+  margin: 1px 0 0;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
+.participants {
+  display: flex;
+  gap: -5px;
+}
+
+.participantImg {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
