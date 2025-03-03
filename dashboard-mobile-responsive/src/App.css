@@ -1,0 +1,11 @@
+.background {
+  background: rgb(248, 247, 250);
+  background: linear-gradient(167deg, rgba(248, 247, 250, 1) 0%, rgba(237, 243, 201, 1) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+}

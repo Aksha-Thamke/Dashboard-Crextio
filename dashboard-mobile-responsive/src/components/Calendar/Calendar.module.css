@@ -1,0 +1,65 @@
+.calendarContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #f8f4ec;
+  border-radius: 12px;
+  flex: 1;
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  width: 90%;
+  margin-left: 120px;
+}
+
+.dayHeader {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.day {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
+.hours {
+  display: "flex";
+}
+
+.eventCard1 {
+  margin-left: 50px;
+}
+
+.eventCard2 {
+  margin-left: 60%;
+}
+
+@media (max-width:1020px) {
+  .hours {
+    display: none;
+    margin: auto;
+  }
+
+  .eventCard1 {
+    margin-left: 10px;
+  }
+
+  .eventCard2 {
+    margin-left: 30%;
+  }
+
+  .calendarGrid {
+    margin: auto;
+  }
+}

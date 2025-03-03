@@ -1,0 +1,82 @@
+/* StatusBar.module.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.statusSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 80px;
+}
+
+
+.interviews {
+  background-color: #333;
+  color: white;
+
+}
+
+.status {
+  padding: 8px 16px;
+  border-radius: 18px;
+  width: 40px;
+  margin-top: 10px;
+}
+
+.hired {
+  background-color: #ffd700;
+  color: black;
+
+}
+
+.project {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 10px;
+
+
+
+  height: 100%;
+  color: black;
+  background: repeating-linear-gradient(-45deg,
+      rgba(226, 228, 189, 0.5) 0px,
+      rgba(226, 228, 189, 0.5) 6px,
+      transparent 2px,
+      transparent 10px);
+}
+
+
+
+.output {
+  border: 1px solid #ccc;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-top: 10px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.output:hover {
+  background: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+  .project {
+    flex: 1;
+    width: 80vw;
+  }
+}

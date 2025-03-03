@@ -1,0 +1,181 @@
+/* OnboardingTask.module.css */
+
+.container {
+  /* width: 300px; */
+  /* height: 550px; */
+  padding: 20px;
+  background-color: hsl(50, 18%, 93%, 0.5);
+  backdrop-filter: blur(70px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.status {
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.black {
+  background-color: #171717;
+  font-weight: 300;
+  width: 60px;
+  height: 18px;
+}
+
+.grey {
+  background-color: #5c5c5c;
+  font-weight: 300;
+  width: 30px;
+  height: 18px;
+}
+
+.orange {
+  background-color: #ffd700;
+  color: black;
+  font-weight: 300;
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+  color: #444;
+}
+
+.percentage {
+  font-size: 26px;
+  color: black;
+  font-weight: 300;
+}
+
+.progressBar {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 18%;
+  height: 100%;
+  background-color: #ffd700;
+}
+
+.taskContainer {
+  background-color: #333;
+  border-radius: 18px;
+  padding: 10px;
+  color: white;
+  z-index: 100;
+  position: relative;
+  top: -50px;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.taskTitle {
+  font-size: 16px;
+  margin: 0;
+  color: white;
+}
+
+.taskProgress {
+  font-size: 24px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0;
+}
+
+.icon {
+  font-size: 20px;
+  color: #888;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80%;
+}
+
+.checkedIcon {
+  font-size: 20px;
+  color: #888;
+  background-color: #797979;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80%;
+}
+
+.taskInfo {
+  flex: 1;
+}
+
+.taskLabel {
+  font-size: 14px;
+  color: white;
+}
+
+.taskDate {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.completedIcon {
+  font-size: 16px;
+  color: #ffd700;
+}
+
+.taskItem {
+  user-select: none; /* Disables text selection */
+}
+
+.taskLabel,
+.taskDate {
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For IE10+ */
+  user-select: none; /* Standard syntax */
+}
+
+.taskItem {
+  pointer-events: none; /* Prevents right-click and copy events */
+}
+
+.completedIcon,
+.incompleteIcon {
+  pointer-events: auto; /* Keeps icons clickable */
+}
